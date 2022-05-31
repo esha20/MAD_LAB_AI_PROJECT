@@ -10,7 +10,7 @@
 
 <li>When matchCounter reaches a value 3, the sum of last three matches will be added to the <b>performance</b> array, which is initially set with -1 at all places.
 For example, the performance array at the start of your app will be like [-1, -1, -1, -1, -1, -1], but after the completion of three matches let the
-score array be like [1, 0, 1] then the performance array would be like [-1, -1, -1, -1, -1, 2]. Each time the performance array will be updated, the new value will
+score array be like [1, 0, 1] then the performance array would be like [-1, -1, -1, -1, -1, 2].Each time the performance array will be updated, the new value will
 be added at the last element of the array, and all previous values will be shifted one place left. The first value will be lost, as we have to analyze the performance
   of the last six gammes only.</li>
   
